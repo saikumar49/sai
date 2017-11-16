@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int num1,num2;
+int add,sub,mod,div;
+printf("enter the num1");
+scanf("%d",&num1)
+printf("enter the num2");
+scanf("%d",&num2);
+add=num1+num2;
+printf("\n addition=%d",add);
+sub=num1-num2;
+printf("\n subtract=%d",sub);
+mul=num1*num2;
+printf("\n multiplication=%d",mul);
+div=num1/num2;
+printf("\n division=%d",div);
+mod=num1%num2;
+printf("\n modulus=%d",mod);
+}
